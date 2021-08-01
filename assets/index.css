@@ -1,0 +1,300 @@
+body{
+    background-image: url(./img/3657969.png);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+#name{
+color: #009c85;
+}
+.pagnav{
+    font-size: 17px;
+    opacity: 0.99;
+    background-color: #1f1f1f;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+h1{
+    font-size: 35px;
+    margin-left:150px;
+    color: #1f1f1f;
+}
+
+#foto{
+width: 45%;
+}
+
+/* curriculum */
+#cvlink{
+    text-decoration: none;
+}
+
+#cv{
+    text-decoration: none;
+    margin-left: 45%;
+    background-color: #1f1f1f;
+    border: 2px solid white;
+    width: 100px;
+    
+}
+/* sobre mi */
+.sobremitext{
+    margin-top: 30px;
+}
+.sobremi{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 5%;
+    padding-top: 40px;
+    }
+#texto{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    background-color: #1f1f1f;
+    margin-left: 39%;
+    width: 20%;
+}
+
+/*Herramientas*/
+h3{
+    color: white;
+    text-align: center;
+    background-color: #1f1f1f;
+    margin-left: 39%;
+    width: 20%;
+}
+.Herramientas{
+    
+    padding-top: 8%;
+    background-color: #009c85;
+    height: 400px;
+}
+
+
+
+.experiencia{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 40px;
+    padding-left: 21%;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+
+
+.imagenes{
+
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+#python:hover{
+    color: #306998;
+}
+#git:hover{
+    color: #f1502f;
+}
+#boot:hover{
+    color: #563d7c;
+}
+#js:hover{
+    color: #f0db4f;
+}
+#css:hover{
+    color: #264de4;
+}
+#html:hover{
+    color: #e34c26;
+}
+.programas{
+
+    background-color: white;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+/*portfolio*/
+
+.portfolio{
+    background-color: #1f1f1f;
+}
+h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-size: 10%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: #1f1f1f;
+    margin-left: 39%;
+    width: 20%;
+}
+/*contacto*/
+.contacto{
+    padding-top: 5%;
+    background-color: #009c85;
+    margin-top: 50px;
+    padding-bottom: 5%;
+}
+
+.car{
+background-color: #1f1f1f;
+}
+
+/*card*/
+
+.card-title{
+    color: black;
+}
+
+.h:hover{
+    
+    opacity: 0.1;
+}
+
+button{
+    text-decoration: none;
+    color: white;
+background-color: #1f1f1f;
+border-radius: 5%;
+width: 10%;
+}
+.row{
+width: 95%;
+margin-left: 3%;
+}
+
+/*footer*/
+footer{
+    background-color: #1f1f1f;
+    height: 100px;
+}
+.git:hover{
+opacity: 0.5;
+}
+h5{
+    color: white;
+}
+
+.btn{
+    background-color: #1f1f1f;
+    border: 2px solid white;
+}
+/*Redes*/
+.redes{
+    height: 30px;
+    padding: 15px;
+text-align: center;
+
+}
+.git{
+   font-size: 130%;
+color: white;   
+}
+#telefono{
+    margin-bottom: 0px;
+    color: white;
+}
+.he{
+    
+    color: white;
+}
+
+
+/*efecto hover*/
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .contenedor figure{
+        position: relative;
+       
+        overflow: hidden;
+        border-radius: 6px;
+    }
+    
+    .contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    
+    }
+    
+    .contenedor figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        transition: all 500ms ease-out;
+        visibility: hidden;
+        text-align: center;
+    }
+    
+    .contenedor figure:hover > .capa{
+     opacity: 1;
+     visibility: visible;
+    }
+    
+   
+    
+    .contenedor figure:hover > .capa #title{
+        font-size: 22px;
+        font-family: "roboto";
+        margin-top: 140px;
+    }    
+    .contenedor figure .capa #title{
+        font-size: 22px;
+        font-family: "roboto";
+        color: white;
+        transition: all 500ms ease-out;
+        margin-top: 160px;
+    }
+
+    .contenedor figure .capa > p{
+        margin-bottom: -5px;
+        font-size: 13px;
+
+        font-family: "robotothing";
+        color:grey;
+    }
+
+    .contenedor figure:hover > .capa p{
+        margin-bottom: -5px;
+        font-size: 13px;
+        font-family: "robotothing";
+    }
+    
+    @font-face {
+        font-family: "roboto";
+        src: url(./font/Roboto-Black.ttf);
+    }
+   
+    @font-face {
+        font-family: "robotothing";
+        src: url(./font/Roboto-Light.ttf);
+    }
